@@ -2,9 +2,9 @@
   "name": "basehub-marketing-website-template",
   "version": "0.1.0",
   "scripts": {
-    "dev": "basehub dev & next dev --turbopack",
-    "build": "basehub && next build",
-    "start": "next start",
+    "dev": "node init && basehub dev & next dev --turbopack",
+    "build": "node init && basehub && next build",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -24,7 +24,7 @@
     "embla-carousel-react": "^8.0.4",
     "embla-carousel-wheel-gestures": "^8.0.1",
     "hast-util-to-jsx-runtime": "^2.3.0",
-    "next": "16.0.0",
+    "next": "16.0.10",
     "next-themes": "^0.4.6",
     "postcss": "^8.4.38",
     "react": "19.2.0",
